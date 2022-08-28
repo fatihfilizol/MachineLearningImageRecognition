@@ -13,6 +13,7 @@
 		FBDAC8CE28BB84F800D3E75D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDAC8CC28BB84F800D3E75D /* Main.storyboard */; };
 		FBDAC8D028BB84FA00D3E75D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBDAC8CF28BB84FA00D3E75D /* Assets.xcassets */; };
 		FBDAC8D328BB84FA00D3E75D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBDAC8D128BB84FA00D3E75D /* LaunchScreen.storyboard */; };
+		FBDAC8DB28BB881400D3E75D /* MobileNetV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FBDAC8DA28BB881400D3E75D /* MobileNetV2.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FBDAC8CF28BB84FA00D3E75D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBDAC8D228BB84FA00D3E75D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBDAC8D428BB84FA00D3E75D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBDAC8DA28BB881400D3E75D /* MobileNetV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MobileNetV2.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				FBDAC8CF28BB84FA00D3E75D /* Assets.xcassets */,
 				FBDAC8D128BB84FA00D3E75D /* LaunchScreen.storyboard */,
 				FBDAC8D428BB84FA00D3E75D /* Info.plist */,
+				FBDAC8DA28BB881400D3E75D /* MobileNetV2.mlmodel */,
 			);
 			path = MachineLearningImageRecognition;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				FBDAC8CB28BB84F800D3E75D /* ViewController.swift in Sources */,
 				FBDAC8C728BB84F800D3E75D /* AppDelegate.swift in Sources */,
+				FBDAC8DB28BB881400D3E75D /* MobileNetV2.mlmodel in Sources */,
 				FBDAC8C928BB84F800D3E75D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
